@@ -3,7 +3,7 @@ import os
 
 def split_excel():
     desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
-    filename = os.path.join(desktop_path, 'AMA22032024.xlsx')
+    filename = os.path.join(desktop_path, 'filename.xlsx')
     
     wb = openpyxl.load_workbook(filename)
     ws = wb.active
